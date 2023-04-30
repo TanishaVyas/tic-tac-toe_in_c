@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
 /* 
 screen
 x and o
@@ -49,6 +50,7 @@ void main(){
         if(winner != ' ' && Checkboard()==0){
             break;
         }
+        system("cls");
     }
     
     
